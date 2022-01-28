@@ -1,0 +1,31 @@
+Keys for team names (and their ratings)
+
+teamRatings = {
+		BDS : 2702,
+		DWG : 2332,
+		DZ  : 1904,
+		ELEVATE : 1800,
+		Faze : 3081,
+		Furia : 2103,
+		NAVI : 1868,
+		NIP : 2839,
+		OXG : 1952,
+		Rogue : 2135,
+		SBXG : 1991,
+		SQ : 1934,
+		SSG: 2445,
+		Empire: 2654,
+		Liquid: 2298,
+		oNe : 2730,
+		CAG : 1840,
+		MNM : 1000,
+		TSM : 1853,
+		MIBR : 2009
+	}
+
+The program will only has ratingsfor the 18 teams currently qualified for SI + TSM and MIBR, 
+and the score for MNM has been set to 1000 as they did not have a previous score.
+Note: these values are hard coded in, would need to change the values in the code itself.
+
+You can regenerate the same match without entering team names after a match is finished,
+or you can generate a new match entirely with new teams. 
