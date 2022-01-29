@@ -32,7 +32,8 @@ def main() :
 	input ("Program ending...")
 
 def matchGenerator():
-
+	teams = ["BDS","DWG", "DZ", "ELEVATE", "Faze", "Furia", "NAVI", "NIP", "OXG", "Rogue",
+		"SBXG", "SQ","SSG", "Empire", "Liquid", "oNe", "CAG", "MNM", "TSM", "MIBR"]
 	# Change values for team names (in quotes) and skill ratings
 	teamRatings = {
 		"BDS" : 2702,
@@ -57,14 +58,17 @@ def matchGenerator():
 		"MIBR" : 2009
 	}
 
-
 	print ("---------------------------------------")
 	print ("|        Match result geneator        |")
 	print ("---------------------------------------")
 	teamA = input("Enter team 1's name: ")
+	while (teamA not in (teams)):
+		teamA = input("Invalid entry: re-enter team name: ")
 	teamAScore = teamRatings[teamA]
 	print ("---------------------------------------")
 	teamB = input("Enter team 2's name: ")
+	while (teamB not in (teams)):
+		teamB = input("Invalid entry: re-enter team name: ")
 	teamBScore = teamRatings[teamB]
 
 	regenGame = True
