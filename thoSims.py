@@ -3,7 +3,21 @@ from random import randint
 
 def main():
 	seed()
-	teams = []
+	teams = ["DZ",
+		"ELEVATE",
+		"Furia",
+		"OXG",
+		"Liquid",
+		"oNe",
+		"CAG",
+		"AST",
+	    	"XSET",
+	    	"W7M",
+	    	"Heroic",
+	    	"LFO",
+	   	"G2",
+	    	"DW",
+	    	"Chiefs"]
 	# Change values for team names (in quotes) and skill ratings
 	teamRatings = {
 		"DZ"       : 1904,
