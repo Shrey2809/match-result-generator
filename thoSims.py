@@ -3,30 +3,24 @@ from random import randint
 
 def main():
 	seed()
-	teams = ["BDS","DWG", "DZ", "ELEVATE", "Faze", "Furia", "NAVI", "NIP", "OXG", "Rogue",
-		"SBXG", "SQ","SSG", "Empire", "Liquid", "oNe", "CAG", "MNM", "TSM", "MIBR"]
+	teams = []
 	# Change values for team names (in quotes) and skill ratings
 	teamRatings = {
-		"BDS" : 2702,
-		"DWG" : 2332,
-		"DZ"  : 1904,
-		"ELEVATE" : 1800,
-		"Faze" : 3081,
-		"Furia" : 2103,
-		"NAVI" : 1868,
-		"NIP" : 2839,
-		"OXG" : 1952,
-		"Rogue" : 2135,
-		"SBXG" : 1991,
-		"SQ" : 1934,
-		"SSG": 2445,
-		"Empire": 2654,
-		"Liquid": 2298,
-		"oNe" : 2730,
-		"CAG" : 1840,
-		"MNM" : 1000,
-		"TSM" : 1853,
-		"MIBR" : 2009
+		"DZ"       : 1904,
+		"ELEVATE"  : 1800,
+		"Furia"    : 2103,
+		"OXG"      : 1952,
+		"Liquid"   : 2298,
+		"oNe"      : 2730,
+		"CAG"      : 1840,
+		"AST"      : 1800,
+	    	"XSET"     : 1800,
+	    	"W7M"      : 1622,
+	    	"Heroic"   : 1652,
+	    	"LFO"      : 1999,
+	   	"G2"       : 1827,
+	    	"DW"       : 1645,
+	    	"Chiefs"   : 1923
 	}
 	teamA = input("Enter team 1's name: ")
 	while (teamA not in (teams)):
