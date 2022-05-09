@@ -32,30 +32,39 @@ def main() :
 	input ("Program ending...")
 
 def matchGenerator():
-	teams = ["BDS","DWG", "DZ", "ELEVATE", "Faze", "Furia", "NAVI", "NIP", "OXG", "Rogue",
-		"SBXG", "SQ","SSG", "Empire", "Liquid", "oNe", "CAG", "MNM", "TSM", "MIBR"]
+	teams = ["DZ",
+		"ELEVATE",
+		"Furia",
+		"OXG",
+		"Liquid",
+		"oNe",
+		"CAG",
+		"AST",
+	    	"XSET",
+	    	"W7M",
+	    	"Heroic",
+	    	"LFO",
+	   	"G2",
+	    	"DW",
+	    	"Chiefs", "BDS"]
 	# Change values for team names (in quotes) and skill ratings
 	teamRatings = {
-		"BDS" : 2702,
-		"DWG" : 2332,
-		"DZ"  : 1904,
-		"ELEVATE" : 1800,
-		"Faze" : 3081,
-		"Furia" : 2103,
-		"NAVI" : 1868,
-		"NIP" : 2839,
-		"OXG" : 1952,
-		"Rogue" : 2135,
-		"SBXG" : 1991,
-		"SQ" : 1934,
-		"SSG": 2445,
-		"Empire": 2654,
-		"Liquid": 2298,
-		"oNe" : 2730,
-		"CAG" : 1840,
-		"MNM" : 1000,
-		"TSM" : 1853,
-		"MIBR" : 2009
+		"DZ"       : 2083,
+		"ELEVATE"  : 2062,
+		"Furia"    : 2013,
+		"OXG"      : 2090,
+		"Liquid"   : 2110,
+		"oNe"      : 2052,
+		"CAG"      : 2075,
+		"AST"      : 2111,
+	    	"XSET"     : 2081,
+	    	"W7M"      : 2136,
+	    	"Heroic"   : 2150,
+	    	"LFO"      : 2064,
+	   	"G2"       : 2043,
+	    	"DW"       : 2119,
+	    	"Chiefs"   : 2041,
+		"BDS"      : 2188,
 	}
 
 	print ("---------------------------------------")
