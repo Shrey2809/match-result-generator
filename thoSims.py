@@ -17,24 +17,25 @@ def main():
 	    	"LFO",
 	   	"G2",
 	    	"DW",
-	    	"Chiefs"]
+	    	"Chiefs", "BDS"]
 	# Change values for team names (in quotes) and skill ratings
 	teamRatings = {
-		"DZ"       : 1904,
-		"ELEVATE"  : 1800,
-		"Furia"    : 2103,
-		"OXG"      : 1952,
-		"Liquid"   : 2298,
-		"oNe"      : 2730,
-		"CAG"      : 1840,
-		"AST"      : 1800,
-	    	"XSET"     : 1800,
-	    	"W7M"      : 1622,
-	    	"Heroic"   : 1652,
-	    	"LFO"      : 1999,
-	   	"G2"       : 1827,
-	    	"DW"       : 1645,
-	    	"Chiefs"   : 1923
+		"DZ"       : 2083,
+		"ELEVATE"  : 2062,
+		"Furia"    : 2013,
+		"OXG"      : 2090,
+		"Liquid"   : 2110,
+		"oNe"      : 2052,
+		"CAG"      : 2075,
+		"AST"      : 2111,
+	    	"XSET"     : 2081,
+	    	"W7M"      : 2136,
+	    	"Heroic"   : 2150,
+	    	"LFO"      : 2064,
+	   	"G2"       : 2043,
+	    	"DW"       : 2119,
+	    	"Chiefs"   : 2041,
+		"BDS"      : 2188,
 	}
 	teamA = input("Enter team 1's name: ")
 	while (teamA not in (teams)):
