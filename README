@@ -19,9 +19,9 @@ teamRatings = {
 		"BDS"      : 2188,
 	}
 
-The program will only has ratingsfor the 18 teams currently qualified for SI + TSM and MIBR, 
-and the score for MNM has been set to 1000 as they did not have a previous score.
-Note: these values are hard coded in, would need to change the values in the code itself.
+The program will only has ratings off of their regular season play for the 16 teams 
+qualified to the Six Major Charlotte. Team ratings are provided by Sprabuni
 
+Note: these values are hard coded in, would need to change the values in the code itself.
 You can regenerate the same match without entering team names after a match is finished,
 or you can generate a new match entirely with new teams. 
